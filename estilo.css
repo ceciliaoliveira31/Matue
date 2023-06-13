@@ -1,0 +1,176 @@
+/*DOCUMENTOCSS*/
+
+/*RESET CSS*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	
+}
+html{
+	scroll-behavior:smooth;
+}
+body{
+	font-family: Tahoma;
+	background-color: #A42C2C;
+}
+header{
+	height: 200px;
+	background-color: #800000;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header .logo {
+	width: 150px;
+	margin-left: 30px;
+}
+header .logo img{
+	width: 100%;
+}
+
+header nav{
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a {
+	padding: 15px 50px;
+	text-decoration: none;
+	color: black;
+	transition: 0.4s;
+	font-weight: 700;
+
+}
+nav ul li a:hover{
+	background-color: #B72F2F;
+	color: black;
+}
+header .sociais{
+	height: 50px;
+	width: 250px;
+	display: flex;
+	justify-content: center;
+	margin-right: 60px;
+}
+header .sociais button {
+	margin: 0 10px;
+	width: 60px;
+	height: 50px;
+	background-color: #A42C2C;
+	color: white;
+}
+header .sociais .fa-brands {
+	width: 50px	;
+}
+
+#biografia {
+	height: 850px;
+	background-color: #A42C2C;
+}
+.titulo {
+	height: 70px;
+	background-color: #691414;
+	color: #fff;
+	text-align: center;
+	padding-top: 20px;
+}
+.informacao {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 350px;
+	width: 1100px;
+	margin: 20px auto;
+	background-color: #B72F2F;
+	border-radius: 10px;
+}
+.informacao figure {
+	width: 150px;
+	height: 210px;
+	background-color: white;
+}
+.informacao p {
+	width: 800px;
+	background-color: #B72F2F;
+
+}
+#musicas {
+	height: 650px;
+	background-color: #A42C2C
+}
+#maistocadas{
+	height: 850px;
+	background-color: #A42C2C
+}
+#fotos {
+	height: 850px;
+	background-color: #A42C2C
+}
+#grupos {
+	height: 850px;
+	background-color: #A42C2C
+}
+
+
+footer {
+	height: 163px;
+	background-color: #691414;
+	display: flex;
+	justify-content: center;
+
+
+}
+
+.musicas {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 1600px;
+	width: 1100px;
+	margin: 20px auto;
+	border-radius: 10px;
+	background-image: url("img/matue7opaca.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+
+.musicas ul li {
+	width: 850px;
+	height:29px;
+	opacity: 1;
+}
+
+
+.maistocadas{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 740px;
+	width: 1100px;
+	margin: 20px auto;
+	background-color: ;
+	border-radius: 10px;
+	background-image: url("img/matue.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.maistocadas ul li {
+	width: 850px;
+	height:29px;
+
+}
+
+
